@@ -14,13 +14,13 @@
                       </a>
                     </div>
                     <div class ="link">
-                      <a href="">
+                      <a href="https://www.linkedin.com/in/nicholas-heeps-189983236/">
                         <img src="../assets/LinkedIn.png" alt="">
                         <h2>LinkedIn</h2>
                       </a>
                     </div>
                     <div class ="link">
-                      <a href="">
+                      <a href="https://www.youtube.com/channel/UCfIYBNfilN8YQbqf8BroyiQ">
                         <img src="../assets/youtube.png" alt="">
                         <h2>youtube</h2>
 
