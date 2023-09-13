@@ -1,4 +1,5 @@
 <template>
+    <link rel="stylesheet" href="styles.css">
     <div class="main-container">
         <div class="container-one">
             <div class="profile">
@@ -29,7 +30,7 @@
             </div>
         </div>
         <div class="container-two">
-            <div class="about-me">
+            <div class="Description">
                 <h2>About Me</h2>
                 <p>Hey my name is Nick, my Deakin student number is s223167228 and my email address is s223167228@deakin.edu.au. I am a new student here at Deakin and I’m currently studying for a bachelor’s degree in information technology. 
                     I live at Deakin residence and have 3 days a week of contact. This is my second year at university as I had originally started off at RMIT but had decided to transfer as Deakin was more appealing to me. 
@@ -37,6 +38,7 @@
                     <br>
                     I have a few different hobbies, but my main ones are coding, building PC’s and going to gym. Since first beginning university, I have created a few projects including writing a choose your own adventure game in python, 
                     creating a basic bartending simulator in unreal engine, writing some basic websites, designing prototypes for apps and coding basic databases. 
+                    <br>
                     This year I have been mainly working with HTML where I have created webpages that display how people can interact in different ways and also displaying the many different ways that java can be utilized. 
                     I have also been working with SQL and creating databases which then involves adding, altering, and removing sets of data. 
                 </p>
@@ -49,6 +51,7 @@
                     <img src="../assets/JavaScript-Logo.png" alt="Javascript logo">
                     <img src="../assets/Python-logo.png" alt="python logo">
                     <img src="../assets/SQL-logo.png" alt="SQL logo">
+                    <img src="../assets/unreal-engine-logo.png" alt="Unreal Engine logo">
                 </div>
             </div>
             <div class="button-container">
@@ -73,82 +76,6 @@ export default {
 }
 </script>
 
-<style scoped>
-    img {
-        height: 100px;
-    }
-    .main-container{
-        display: flex;
-        flex-direction: row;
-        background-color: #9d9d9d;
-        border-radius: 25px;
-    }
-
-    .container-one{
-        background-color: #202151;
-        padding: 2.5%;
-        width: 30%;
-        border-radius: 25px;
-    }
-
-    .profile img{
-        height: 5rem;
-        border-radius: 50%;
-    }
-
-
-    .link a{
-        text-decoration: none;
-        color: rgb(100, 100, 100);
-        font-size: 10px;
-    }
-
-    .link img{
-        height: 3rem;
-    }
-    .container-two{
-        background-color: #5a6866;
-        margin: 2.5%;
-        width: 70%;
-        border-radius: 25px;
-    }
-
-    .about-me{
-        text-align: left;
-        padding: 2.5%;
-    }
-
-    .logos img{
-        height: 3rem;
-    }
-
-
-    .button-container{
-        margin-top: 5%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    .projects-button{
-        background-color: rgb(5, 230, 255);
-        border-radius: 20px;
-        padding: 5px;
-        margin: 5px;
-    }
-    .projects-button a{
-        text-decoration: none;
-    }
+<style scoped src="./styles.css">
     
-    h2{
-        color: rgb(255, 255, 255);
-    }
-
-    p{
-        color: rgb(255, 255, 255);
-    }
-
-    h3{
-        color: rgb(255, 255, 255);
-    }
 </style>
