@@ -8,7 +8,7 @@
             </div>
             <div class="social-links">
                     <div class ="link">
-                      <a href="">
+                      <a href="https://github.com/nick-heeps1">
                         <img src="../assets/github.png" alt="">
                         <h2>github</h2>
                       </a>
@@ -23,6 +23,7 @@
                       <a href="">
                         <img src="../assets/youtube.png" alt="">
                         <h2>youtube</h2>
+
                       </a>
                     </div>
             </div>
@@ -46,11 +47,15 @@
                 </div>
             </div>
             <div class="button-container">
-                <div class="projects-button">
-                    <a href="">My Projects</a>
+                 <div>
+                    <router-link to="/ProjectsCard" v-slot="{navigate}">
+                    <button @click="navigate" role="link" class="projects-button">Projects</button>
+                    </router-link> 
                 </div>
-                <div class="projects-button">
-                    <a href="">My Resume</a>
+                <div>
+                    <router-link to="/MyResume" v-slot="{navigate}">
+                    <button @click="navigate" role="link" class="projects-button">My Resume</button>
+                    </router-link> 
                 </div>
             </div>
         </div>
@@ -104,6 +109,7 @@ export default {
 
     .about-me{
         text-align: left;
+        padding: 2.5%;
     }
 
     .logos img{
@@ -129,4 +135,5 @@ export default {
         color: rgb(100, 100, 100);
 
     }
+    
 </style>
