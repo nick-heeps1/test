@@ -1,5 +1,4 @@
 <template>
-    <link rel="stylesheet" href="styles.css">
     <div class="main-container">
         <div class="container-one">
             <div class="profile">
@@ -35,10 +34,12 @@
                 <p>Hey my name is Nick, my Deakin student number is s223167228 and my email address is s223167228@deakin.edu.au. I am a new student here at Deakin and I’m currently studying for a bachelor’s degree in information technology. 
                     I live at Deakin residence and have 3 days a week of contact. This is my second year at university as I had originally started off at RMIT but had decided to transfer as Deakin was more appealing to me. 
                     Before moving to Melbourne, I used to live on a farm in a small town near the border called Barnawartha. 
-                    <br>
+                </p>
+                <p>
                     I have a few different hobbies, but my main ones are coding, building PC’s and going to gym. Since first beginning university, I have created a few projects including writing a choose your own adventure game in python, 
                     creating a basic bartending simulator in unreal engine, writing some basic websites, designing prototypes for apps and coding basic databases. 
-                    <br>
+                </p>
+                <p>
                     This year I have been mainly working with HTML where I have created webpages that display how people can interact in different ways and also displaying the many different ways that java can be utilized. 
                     I have also been working with SQL and creating databases which then involves adding, altering, and removing sets of data. 
                 </p>
@@ -58,11 +59,6 @@
                  <div>
                     <router-link to="/ProjectsCard" v-slot="{navigate}">
                     <button @click="navigate" role="link" class="projects-button">Projects</button>
-                    </router-link> 
-                </div>
-                <div>
-                    <router-link to="/MyResume" v-slot="{navigate}">
-                    <button @click="navigate" role="link" class="projects-button">My Resume</button>
                     </router-link> 
                 </div>
             </div>

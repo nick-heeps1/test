@@ -11,12 +11,6 @@ const routes = [
     name: 'ProjectsCard',
     component: () => import('../views/ProjectsCard')
   },
-  {
-    path: '/MyResume',
-    name: 'MyResume',
-    component: () => import('../views/MyResume')
-
-  },
 ]
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
