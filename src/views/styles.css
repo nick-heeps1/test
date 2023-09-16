@@ -37,8 +37,16 @@
   }
 
   .nav-button:hover{
-    background-color: #fffcf7;
+    background-color: #c5c3bf;
   }
+
+  .sticky-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
 img {
     height: 100px;
 }
