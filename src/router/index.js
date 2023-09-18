@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/MainPage.vue'
+import HomeView from '../Components/MainPage.vue'
 const routes = [
   {
     path: '/',
@@ -9,7 +9,7 @@ const routes = [
   {
     path: '/ProjectsCard',
     name: 'ProjectsCard',
-    component: () => import('../views/ProjectsCard')
+    component: () => import('../Components/ProjectsCard')
   },
 ]
 const router = createRouter({

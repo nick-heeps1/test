@@ -7,7 +7,7 @@
   }
   
   nav {
-    padding: 10px;
+    padding: 5px;
     background-color: beige;
     border-radius: 25px;
     margin-bottom: 2.5%;
@@ -29,7 +29,7 @@
   .nav-button{
     background-color: #fffcf7;
     border-radius: 25px;
-    padding: 5px;
+    padding: 1px;
     margin: 5px;
     width: 10rem;
     height: 3rem;
@@ -41,9 +41,10 @@
   }
 
   .sticky-nav{
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 0%;
     z-index: 1;
   }
 
@@ -148,4 +149,13 @@ p{
 
 h3{
     color: #738290;
+}
+
+body {
+    background-color: #000000; /* Replace #ff0000 with your desired color */
+  }
+
+.Youtube-video {
+    aspect-ratio: 16/9;
+    width: 75%;
 }

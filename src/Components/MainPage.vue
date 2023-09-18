@@ -75,6 +75,6 @@ export default {
 }
 </script>
 
-<style scoped src="./styles.css">
+<style>
     
 </style>
