@@ -11,5 +11,6 @@
   <router-view/>
 </template>
 
-<style src="./views/styles.css">
+<style scoped>
+@import "@/assets/styles.css";
 </style>
