@@ -41,12 +41,26 @@
                 </p>
                 <p>
                     This year I have been mainly working with HTML where I have created webpages that display how people can interact in different ways and also displaying the many different ways that java can be utilized. 
-                    I have also been working with SQL and creating databases which then involves adding, altering, and removing sets of data. 
+                    In other classes I have been working with SQL and creating databases which then involves adding, altering, and removing sets of data. 
                 </p>
                 <p>
                   Unfortunately, I no longer have access to the projects that I had created last year as they were linked with my RMIT enducation account which is why i am unable to present the projects on this page. 
                 </p>
+                <p>
+                  Below I have put some basic HTML elements that I have worked with this year to show their functionality.
+                </p>
             </div>
+            <div>
+              <H2>HTML elements</H2>
+              <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" required v-model="firstname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" required v-model="lastname"><br>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+            
             <div class="technology-section">
                 <h1>Technologies Studied</h1>
                 <div class="logos">
@@ -73,6 +87,8 @@
 export default {
 
 }
+
+
 </script>
 
 <style>
