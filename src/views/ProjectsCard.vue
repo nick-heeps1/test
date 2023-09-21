@@ -39,7 +39,6 @@
                     <iframe class="Youtube-video" src="https://www.youtube.com/embed/axi9-s5JqiE?si=0ENp3_EgJNSy6ERr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p>
                       <a href="https://github.com/nick-heeps1/SIT120-Pass-Task-1.git">Project 1 Repository</a>
-
                     </p>
                   </section>
                   <br>
@@ -51,7 +50,6 @@
                     <p><a href="https://github.com/nick-heeps1/SIT120-Pass-Task-2.git" >Project 2 Repository</a></p>
                   </section>
                 </div>
-                
             </div>
         </div>
     </div>

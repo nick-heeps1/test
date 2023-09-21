@@ -23,7 +23,6 @@
                       <a href="https://www.youtube.com/channel/UCfIYBNfilN8YQbqf8BroyiQ">
                         <img src="../assets/youtube.png" alt="">
                         <h2>YouTube</h2>
-
                       </a>
                     </div>
             </div>
@@ -50,8 +49,30 @@
                   Below I have put some basic HTML elements that I have worked with this year to show their functionality.
                 </p>
             </div>
-            <div>
+            <section class="element-1">
               <H2>HTML elements</H2>
+              <table>
+                <tr>
+                  <th>Roomate name</th>
+                  <th>Roomate age</th>
+                  <th>Roomate course</th>
+                </tr>
+                <tr>
+                  <td>Cooper Luff</td>
+                  <td>19</td>
+                  <td>Accounting</td>
+                </tr>
+                <tr>
+                  <td>Grace Willey</td>
+                  <td>19</td>
+                  <td>Nursing</td>
+                </tr>
+                <tr>
+                  <td>Trent Blake</td>
+                  <td>20</td>
+                  <td>Teaching</td>
+                </tr>
+              </table>
               <form>
                 <label for="fname">First name:</label><br>
                 <input type="text" required v-model="firstname"><br>
@@ -59,8 +80,7 @@
                 <input type="text" required v-model="lastname"><br>
                 <button type="submit">Submit</button>
               </form>
-            </div>
-            
+            </section>
             <div class="technology-section">
                 <h1>Technologies Studied</h1>
                 <div class="logos">

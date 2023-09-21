@@ -91,6 +91,7 @@ img {
 .Description{
     text-align: left;
     padding: 2.5%;
+    flex-direction: row;
 }
 
 .logos img{
@@ -158,4 +159,47 @@ body {
 .Youtube-video {
     aspect-ratio: 16/9;
     width: 75%;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+.element-1{
+    background-color: #fffcf7;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2rem;
+    flex:wrap ;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  th {
+    background-color: #738290;
+    color: white;
+  }
+
+  .element-2{
+    background-color: #fffcf7;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2rem;
+    flex:wrap ;
 }
