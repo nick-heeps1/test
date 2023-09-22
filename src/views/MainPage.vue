@@ -3,8 +3,8 @@
         <div class="container-one">
             <div class="profile">
                 <img src="../assets/profile-pic.png" alt="">
-                <h3>Nicholas Heeps</h3>
-                <p> IT student</p>
+                <h1>Nicholas Heeps</h1>
+                <h2> IT student</h2>
             </div>
             <div class="social-links">
                     <div class ="link">
@@ -29,7 +29,7 @@
         </div>
         <div class="container-two">
             <div class="Description">
-                <h2>About Me</h2>
+                <h1>About Me</h1>
                 <p>Hey my name is Nick, my Deakin student number is s223167228 and my email address is s223167228@deakin.edu.au. I am a new student here at Deakin and I’m currently studying for a bachelor’s degree in information technology. 
                     I live at Deakin residence and have 3 days a week of contact. This is my second year at university as I had originally started off at RMIT but had decided to transfer as Deakin was more appealing to me. 
                     Before moving to Melbourne, I used to live on a farm in a small town near the border called Barnawartha. 
